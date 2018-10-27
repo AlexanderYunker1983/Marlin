@@ -76,7 +76,7 @@
 #define Y_MIN_PIN          14
 #define Y_MAX_PIN          15
 #define Z_MIN_PIN          18
-#define Z_MAX_PIN          19
+#define Z_MAX_PIN          4
 
 //
 // Z Probe (when not Z_MIN_PIN)
@@ -191,8 +191,8 @@
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN         13   // Analog Input
-#define TEMP_1_PIN         15   // Analog Input
+#define TEMP_0_PIN         15   // Analog Input
+#define TEMP_1_PIN         13   // Analog Input
 #define TEMP_BED_PIN       14   // Analog Input
 
 // SPI for Max6675 or Max31855 Thermocouple
@@ -279,7 +279,7 @@
 
 // define digital pin 4 for the filament runout sensor. Use the RAMPS 1.4 digital input 4 on the servos connector
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN    4
+  #define FIL_RUNOUT_PIN    11
 #endif
 
 #ifndef PS_ON_PIN
